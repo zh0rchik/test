@@ -82,3 +82,8 @@ frog = Frog(input("Имя: "), int(input("Возраст: ")))
 print(frog.get_name())
 frog.set_name(input("Смените корове имя: "))
 frog.get_information()
+
+frog3 = Frog(input("Имя: "), int(input("Возраст: ")))
+print(frog3.get_name())
+frog3.set_name(input("Смените корове имя: "))
+frog3.get_information()
