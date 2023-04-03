@@ -77,3 +77,8 @@ cow = Cow(input("Имя: "), int(input("Возраст: ")))
 print(cow.get_name())
 cow.set_name(input("Смените корове имя: "))
 cow.get_information()
+
+frog = Frog(input("Имя: "), int(input("Возраст: ")))
+print(frog.get_name())
+frog.set_name(input("Смените корове имя: "))
+frog.get_information()
