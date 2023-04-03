@@ -47,6 +47,17 @@ class Cow(Animal):
         print(f"Cow: \n\tname: {self.get_name()}\n\tage: {self.get_age()}\n"
               f"\tФакт о коровах: люди одомашнили коров около 8 тысяч лет назад.")
 
+class Frog(Animal):
+    def __init__(self, name, age):
+        super().__init__(name, age)
+
+    def get_voice(self):
+        print("Kwa")
+
+    def get_information(self):
+        print(f"Frog: \n\tname: {self.get_name()}\n\tage: {self.get_age()}\n"
+              f"\tФакт о коровах: лягушки - это пресмыкающиеся животное")
+
 cat = Cat(input("Имя: "), int(input("Возраст: ")))
 print(cat.get_name())
 cat.set_name(input("Смените имя: "))
